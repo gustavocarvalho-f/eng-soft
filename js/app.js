@@ -73,7 +73,7 @@
 
   function renderRodape() {
     $('#site-footer').innerHTML = '<div class="container ftr-in"><p><strong>Protótipo acadêmico.</strong> Trabalho de graduação do curso de Análise e Desenvolvimento de Sistemas, Fatec Itapetininga. Todos os dados são fictícios e ficam apenas neste navegador.</p>' +
-      '<div class="ftr-act"><button type="button" class="link-btn" id="ft-aval">Avaliar o protótipo</button><button type="button" class="link-btn" id="ft-sobre">Sobre o protótipo</button><button type="button" class="link-btn" id="ft-reset">Restaurar dados de demonstração</button></div></div>' +
+      '<div class="ftr-act"><button type="button" class="link-btn" id="ft-aval">Avaliar o protótipo</button><button type="button" class="link-btn" id="ft-reset">Restaurar dados de demonstração</button></div></div>' +
       (RA.DB.persistiu() ? '' : '<p class="ftr-aviso container">O navegador bloqueou o armazenamento local. As alterações não serão mantidas ao recarregar.</p>');
   }
 
