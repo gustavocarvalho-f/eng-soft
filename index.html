@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resolve Aqui | Ouvidoria digital de Itapetininga</title>
+  <meta name="description" content="Protótipo funcional de plataforma web para ouvidoria e gestão de reclamações de serviços públicos municipais. Trabalho de graduação, Fatec Itapetininga.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 34 34'%3E%3Crect width='34' height='34' rx='9' fill='%231d4ed8'/%3E%3Cpath d='M8 10.5A2.5 2.5 0 0 1 10.5 8h13A2.5 2.5 0 0 1 26 10.5v9a2.5 2.5 0 0 1-2.5 2.5H15l-5 4v-4h-.5A1.5 1.5 0 0 1 8 20.5z' fill='none' stroke='white' stroke-width='2' stroke-linejoin='round'/%3E%3Cpath d='m13 15.2 2.7 2.7 5.3-5.4' fill='none' stroke='%23f2a516' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Ir para o conteúdo</a>
+  <header id="site-header" class="site-header"></header>
+  <main id="main" tabindex="-1"></main>
+  <footer id="site-footer" class="site-footer"></footer>
+
+  <div id="modal-root"></div>
+  <div id="toasts" class="toasts" role="status" aria-live="polite"></div>
+  <div id="tooltip" class="tooltip" role="tooltip"></div>
+  <div id="print-root" aria-hidden="true"></div>
+
+  <noscript><p style="padding:2rem;font-family:sans-serif">Este protótipo precisa de JavaScript para funcionar.</p></noscript>
+
+  <script src="js/data.js"></script>
+  <script src="js/stats.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/shared.js"></script>
+  <script src="js/views-public.js"></script>
+  <script src="js/views-cidadao.js"></script>
+  <script src="js/views-gestor.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
